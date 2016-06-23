@@ -1,0 +1,23 @@
+{
+  "name": "backbone-nedb",
+  "version": "0.0.1",
+  "description": "Sync Backbone collections and model to nedb store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": "",
+  "author": "Jamal Boulhous <boulhous@gmail.com>",
+  "dependencies": {},
+  "peerDependencies": {
+    "nedb": "~1.8.0",
+    "underscore": "~1.8.3",
+    "backbone": "~1.3.3"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "inquirer": "1.0.3",
+    "mocha": "~2.5.3",
+    "tmp": "0.0.28"
+  }
+}
